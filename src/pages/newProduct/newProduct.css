@@ -1,0 +1,32 @@
+.newProduct {
+  flex: 4;
+  padding: 20px;
+}
+.addProductTitle {
+  margin-bottom: 20px;
+}
+.addProductItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.addProductItem > label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.addProductItem > input {
+  padding: 10px;
+}
+.addProductItem > select {
+  padding: 10px;
+}
+.addProductBtn {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
